@@ -12,7 +12,7 @@ import utilities.ElementFetch;
 import utilities.ElementMethods;
 
 /**
- * @author krish
+ * @author krishna
  *
  */
 public class AxessAcademyEvents extends ElementMethods{
