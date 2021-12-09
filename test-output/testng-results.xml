@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login Test Suite" duration-ms="62552" started-at="2021-12-08T17:07:26Z" finished-at="2021-12-08T17:08:29Z">
+    <groups>
+    </groups>
+    <test name="Test Axess.sc.com" duration-ms="62552" started-at="2021-12-08T17:07:26Z" finished-at="2021-12-08T17:08:29Z">
+      <class name="com.testCases.AxessLogin">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.testCases.AxessLogin@3796751b]" name="beforeTestMethod" is-config="true" duration-ms="350" started-at="2021-12-08T22:37:26Z" finished-at="2021-12-08T22:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.testCases.AxessLogin@3796751b]" name="beforeMethod" is-config="true" duration-ms="12221" started-at="2021-12-08T22:37:26Z" finished-at="2021-12-08T22:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.testCases.AxessLogin.loginToAxessMethod() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginToAxessMethod()[pri:0, instance:com.testCases.AxessLogin@3796751b]" name="loginToAxessMethod" duration-ms="7538" started-at="2021-12-08T22:37:39Z" finished-at="2021-12-08T22:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAxessMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.AxessLogin@3796751b]" name="afterMethod" is-config="true" duration-ms="941" started-at="2021-12-08T22:37:46Z" finished-at="2021-12-08T22:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToAxessMethod status=SUCCESS method=AxessLogin.loginToAxessMethod()[pri:0, instance:com.testCases.AxessLogin@3796751b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:com.testCases.AxessLogin@3796751b]" name="afterTest" is-config="true" duration-ms="4236" started-at="2021-12-08T22:38:24Z" finished-at="2021-12-08T22:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testCases.AxessLogin -->
+      <class name="com.testCases.AxessAcademy">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.testCases.AxessAcademy@67b64c45]" name="beforeMethod" is-config="true" duration-ms="8636" started-at="2021-12-08T22:37:47Z" finished-at="2021-12-08T22:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.testCases.AxessAcademy.verifyAxessAcademyPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAxessAcademyPage()[pri:0, instance:com.testCases.AxessAcademy@67b64c45]" name="verifyAxessAcademyPage" duration-ms="27620" started-at="2021-12-08T22:37:56Z" finished-at="2021-12-08T22:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAxessAcademyPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.AxessAcademy@67b64c45]" name="afterMethod" is-config="true" duration-ms="1000" started-at="2021-12-08T22:38:23Z" finished-at="2021-12-08T22:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAxessAcademyPage status=SUCCESS method=AxessAcademy.verifyAxessAcademyPage()[pri:0, instance:com.testCases.AxessAcademy@67b64c45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testCases.AxessAcademy -->
+    </test> <!-- Test Axess.sc.com -->
+  </suite> <!-- Login Test Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login Test Suite]">
+  <parameter name="browserName" value=""/>
+  <listeners>
+    <listener class-name="utilities.SuiteListener"/>
+  </listeners>
+  <test name="Test Axess.sc.com">
+    <parameter name="browserName" value=""/>
+    <classes>
+      <class name="com.testCases.AxessLogin"/>
+      <class name="com.testCases.AxessAcademy"/>
+    </classes>
+  </test> <!-- Test Axess.sc.com -->
+</suite> <!-- Failed suite [Login Test Suite] -->
