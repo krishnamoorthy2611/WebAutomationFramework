@@ -9,6 +9,7 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -136,4 +137,21 @@ public class ElementMethods extends BrowserMethods {
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].click();", element);
 }
+	public void selectByIndex(WebElement element, int index){
+		Select select = new Select(element);
+		select.selectByIndex(index);
+		
+	}
+	public void selectByValue(WebElement element, String value){
+		Select select = new Select(element);
+		select.selectByValue(value);
+		
+	}
+	
+	public void selectByVisibleText(WebElement element, String value){
+		Select select = new Select(element);
+		select.selectByVisibleText(value);
+		
+	}
+	
 }

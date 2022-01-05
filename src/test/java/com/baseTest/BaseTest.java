@@ -62,7 +62,6 @@ public class BaseTest {
 	@Parameters(value = { "browserName" })
 	public void beforeMethod(String browserName, Method testMethod) {
 		logger = extent.createTest(testMethod.getName());
-		// driver.quit();
 		selectBrowser(browserName);
 		driver.manage().window().maximize();
 		driver.get(Constants.URL);
