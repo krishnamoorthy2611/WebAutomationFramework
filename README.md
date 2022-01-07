@@ -11,13 +11,13 @@ main/java
   
   Used Extent Report which gets saved in Reports Folder after every execution
   
-  Appropriate Drivers can be added in the drivers folder(as of now added the latest as on 15-Dec-2021)
+  Appropriate Drivers can be added in the drivers folder(added the latest as on 15-Dec-2021)
   
   I have developed in Eclipse Mars2. You can also import in any version of eclipse with minimal tweaks like package name change, class name changes in testng.xml file
   
   Execution screenshots will be saved in unique date+hh+mm+ss.png as file name and it gets tagged to the report by adding a method available in BrowserMethods Class
   
-  In Utilities Package The following are the fatures if the calss
+  In Utilities Package The following are the features of the class
   BrowserMethods.java - Contains all the methods related to Webdriver object such as geturl, refresh, switchTo etc
   ElementMethods.java - Contains all the methods related to Webelement object such as click, sendkeys, mousehover etc
   
